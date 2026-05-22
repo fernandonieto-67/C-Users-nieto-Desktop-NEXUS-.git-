@@ -1,0 +1,55 @@
+* {
+
+.precio {
+    font-size: 26px;
+    margin-top: 6px;
+    font-weight: 600;
+    color: #6a4b32;
+}
+
+footer {
+    background-color: #e5ddd2;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 24px;
+    line-height: 1.8;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+
+    .encabezado {
+        padding: 30px 25px 10px;
+    }
+
+    .titulo-seccion {
+        padding: 10px 25px 30px;
+    }
+
+    .encabezado h1 {
+        font-size: 42px;
+    }
+
+    .titulo-seccion h2 {
+        font-size: 32px;
+    }
+
+    .card-producto h3 {
+        font-size: 32px;
+    }
+
+    .precio {
+        font-size: 22px;
+    }
+
+    .imagen-contenedor {
+        height: 280px;
+    }
+
+    footer p {
+        font-size: 18px;
+    }
+}
